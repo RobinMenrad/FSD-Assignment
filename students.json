@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "john smith",
+        "email": "john.smith@foobar.com",
+        "password": "Password123!@#",
+        "subjects": [
+            {
+                "id": 123,
+                "score": 56
+            }
+        ]
+    }
+]
