@@ -1,6 +1,6 @@
 import re
 
-GRADE_ORDERING_KEYS = ['NA', 'F', 'P', 'C', 'D', 'HD'] # TODO: Are we meant to display students if they haven't enrolled?
+GRADE_ORDERING_KEYS = ['NA', 'F', 'P', 'C', 'D', 'HD'] 
 GRADE_ORDERING = {key: i for i, key in enumerate(GRADE_ORDERING_KEYS)}
 
 EMAIL_REGEX = r'\w+[.]\w+@university[.]com'
@@ -50,7 +50,7 @@ def mark_to_grade(mark: int) -> str:
     Returns:
         str: string representation of mark
     """
-    if mark == -1:  # TODO: Are we meant to display students if they haven't enrolled?
+    if mark == -1: 
         return 'N/A'
 
     if mark <= 50:
