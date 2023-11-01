@@ -127,7 +127,7 @@ class StudentController():
         while not exit:
             student_option = input_cyan('Student Course Menu (c/e/r/s/x): ', 2)
 
-            # TODO i also added some logic around checking password format. Not sure if this is needed.
+    
             if student_option == 'c': #change password
                 print_yellow('Updating Password', 2)
                 new_password = input_white('New Password: ', 2)
